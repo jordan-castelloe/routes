@@ -5,10 +5,10 @@ angular.module("Routes", ['ngRoute'])
     $routeProvider
       .when("/i40", {
         templateUrl: "partials/i40.html",
-        controller: "i40Controller"
+        controller: "i40Ctrl"
       })
       .when("/parkway", {
         templateUrl: "partials/parkway.html",
-        controller: "parkwayController"
+        controller: "ParkwayCtrl"
       });
   });
